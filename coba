@@ -1,0 +1,12 @@
+/* style.css */
+
+.latar-belakang-container {
+    background-image: url('http://googleusercontent.com/image_collection/image_retrieval/11851767254543999803');
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    position: relative;
+}
+/* ... kode CSS lainnya */
