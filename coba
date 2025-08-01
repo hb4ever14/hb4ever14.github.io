@@ -1,12 +1,16 @@
-/* style.css */
-
-.latar-belakang-container {
-    background-image: url('http://googleusercontent.com/image_collection/image_retrieval/11851767254543999803');
-    background-size: cover; 
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    min-height: 100vh;
-    position: relative;
+/* Menerapkan background gambar ke seluruh halaman */
+body {
+  background-image: url('path/ke/LOGO MACHE.jpg');
+  background-size: cover;          /* Gambar akan menutupi seluruh area */
+  background-position: center;     /* Posisi gambar di tengah */
+  background-repeat: no-repeat;    /* Mencegah gambar berulang */
+  background-attachment: fixed;    /* Membuat efek parallax (opsional) */
 }
-/* ... kode CSS lainnya */
+
+/* Menerapkan background gambar ke sebuah elemen div */
+.hero-section {
+  background-image: url('path/ke/gambar-hero.png');
+  background-size: cover;
+  background-position: center;
+  height: 500px; /* Penting! Beri tinggi agar gambar terlihat */
+}
